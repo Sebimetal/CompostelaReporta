@@ -1,4 +1,4 @@
-# Trátase de describir a análise realizada e a toma de decisións adoptada sobre aspectos básicos ou iniciais do proxecto como:
+# Descrición do estudo preliminar do proxecto
 
 ## En que consiste o noso proxecto? Cal é o propósito principal da aplicación a desenvolver?
 
