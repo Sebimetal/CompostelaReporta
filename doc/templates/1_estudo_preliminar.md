@@ -1,5 +1,7 @@
 # Descrición do estudo preliminar do proxecto
 
+### Plataforma de incidencias do Concello de Santiago de Compostela
+
 ## En que consiste o noso proxecto? Cal é o propósito principal da aplicación a desenvolver?
 
 O proxecto centrase en establecer unha canle de comunicación áxil entre o Concello de Santiago de Compostela e os seus cidadáns para informar sobre as diversas incidencias que poidan xurdir na nosa cidade. O propósito principal da aplicación é permitir aos cidadáns informar sobre incidencias para que o concello esté informado das mesmas e, ao mesmo tempo, permitir aos cidadáns consulta-las diversas incidencias activas en Santiago de Compostela.
