@@ -1,10 +1,18 @@
 # Análise: Requirimentos do sistema
-Elaboración do Documento de Requirimentos. 
+Este documento describe os requirimentos para ***Santiago Reporta*** especificando que funcionalidade ofrecerá e de que xeito.
 
     a) Descrición xeral do proxecto.
 O proxecto está enfocado en desenvolver unha aplicación web para xestionar e reportar incidencias na cidade de Santiago de Compostela. O obxectivo é establecer unha canle eficiente de comunicación entre os cidadáns e o Concello para informar sobre as incidencias detectadas na cidade e facilitar a súa resolución.
 
     b) Enumerar e indicar unha descrición breve de cada unha das funcionalidades. 
+| Funcionalidade                    | Encabezado 2                                  |
+|-----------------------------------|-----------------------------------------------|
+| Reporte de incidencias            | Usuarios poden reportar as incidencias        |
+| Actualización de incidencias      | Actualiza-lo estado das incidencias xa creadas| 
+| Seguimento de incidencias         | Consultar e filtrar as incidencias            |
+
+
+
 **Reporte de Incidencias**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
 
 **Actualización de Incidencias**: Vainos permitir cambiar o estado das incidencias activas, e levar un rexistro das distintas modificacións do seu estado.
@@ -22,7 +30,7 @@ O seguimento vai poder verse por mapa (*Vai incluir un mapa con iconas sobre as 
     e) Entorno operacional: estimación de plataformas hardware e software necesarias para a implantación.
 **Servidores na nube**: Para despregar vamos a necesitar plataformas na nube para poder desprega-la nosa aplicación.
 **Bases de Datos**: *Ainda pendiente de que base de datos imos utilizar*. Encargarase de almacenar toda a información coa que vamos a traballar.
-**Backend**: *Ainda pendiente de que linguaxe e framework imos utilizar*. Encargarase de facer as consultas á BBDD e devolver os datos en JSON para xestionalos no frontend.
+**Backend**: *Ainda pendiente de que linguaxe e framework imos utilizar*. Implementaremos un API Rest. Encargarase de facer as consultas á BBDD e devolver os datos en JSON para xestionalos no frontend.
 **Frontend**:  *Ainda pendiente de que framework imos utilizar*. Xeneraremos a interface web na que o usuario poderá facer as consultas CRUD á nosa backend. 
 
 
