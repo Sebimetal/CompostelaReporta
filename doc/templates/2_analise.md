@@ -14,11 +14,14 @@ O proxecto está enfocado en desenvolver unha aplicación web para xestionar e r
 
 - **Crear incidencia**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
 
-- **Actualización de Incidencias**: Vainos permitir cambiar o estado das incidencias activas, e levar un rexistro das distintas modificacións do seu estado.
+- **Actualización de Incidencias**: Vainos permitir cambiar o estado das incidencias activas (Nova, Revisada, Resolvendo, Correxido), e levar un rexistro das distintas modificacións do seu estado.
 
 - **Seguimento de Incidencias**: 
 Permitirá aos usuarios consultar as incidencias activas, as cales vanse poder filtrar tanto por fecha de reporte das incidencias (*As últimas incidencias engadidas*) ou por tipo de incidencia (*Alcantarillado, Alumeado público, Medio Viario...*). 
 O seguimento vai poder verse por mapa (*Vai incluir un mapa con iconas sobre as incidencias nas coordenadas da incidencia*) ou en lista (*Mostrando un listado dos datos máis importantes sobre as incidencias*).
+
+- **Eliminar incidencias**:
+Permitirá aos administradores poder eliminar unha incidencia de  
 
 ## c) Requerimentos non funcionais: requerimentos sobre rendemento, seguridade, etc. (Apartado opcional)
 
