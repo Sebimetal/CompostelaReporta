@@ -1,19 +1,18 @@
 # Análise: Requirimentos do sistema
-Este documento describe os requirimentos para ***Santiago Reporta*** especificando que funcionalidade ofrecerá e de que xeito.
+Este documento describe os requirimentos para ***Compostela Reporta*** especificando que funcionalidade ofrecerá e de que xeito.
 
     a) Descrición xeral do proxecto.
 O proxecto está enfocado en desenvolver unha aplicación web para xestionar e reportar incidencias na cidade de Santiago de Compostela. O obxectivo é establecer unha canle eficiente de comunicación entre os cidadáns e o Concello para informar sobre as incidencias detectadas na cidade e facilitar a súa resolución.
 
     b) Enumerar e indicar unha descrición breve de cada unha das funcionalidades. 
-| Funcionalidade                    | Encabezado 2                                  |
-|-----------------------------------|-----------------------------------------------|
-| Reporte de incidencias            | Usuarios poden reportar as incidencias        |
-| Actualización de incidencias      | Actualiza-lo estado das incidencias xa creadas| 
-| Seguimento de incidencias         | Consultar e filtrar as incidencias            |
+| Funcionalidade                    | Resumo                                                     |
+|-----------------------------------|------------------------------------------------------------|
+| Crear incidencia                  | *Usuarios crean as incidencias na BBDD*                    |
+| Actualización de incidencias      | *Administrador actualiza estado das incidencias na BBDD*   | 
+| Consulta de incidencias           | *Consultar e filtrar as incidencias na BBDD*               |
+| Eliminar incidencias              | *Administrador pode eliminar incidencias na BBDD*          |
 
-
-
-**Reporte de Incidencias**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
+**Crear incidencia**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
 
 **Actualización de Incidencias**: Vainos permitir cambiar o estado das incidencias activas, e levar un rexistro das distintas modificacións do seu estado.
 

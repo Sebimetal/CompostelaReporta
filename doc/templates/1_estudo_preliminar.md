@@ -1,8 +1,8 @@
 # Descrición do estudo preliminar do proxecto
 
-## O proxecto nunha frase:
+## Nome do proxecto:
 
-### Plataforma de incidencias do Concello de Santiago de Compostela
+### Compostela Reporta
 
 ## En que consiste o noso proxecto? Cal é o propósito principal da aplicación a desenvolver?
 
