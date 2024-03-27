@@ -5,12 +5,12 @@ Este documento describe os requirimentos para ***Compostela Reporta*** especific
 O proxecto está enfocado en desenvolver unha aplicación web para xestionar e reportar incidencias na cidade de Santiago de Compostela. O obxectivo é establecer unha canle eficiente de comunicación entre os cidadáns e o Concello para informar sobre as incidencias detectadas na cidade e facilitar a súa resolución.
 
     b) Enumerar e indicar unha descrición breve de cada unha das funcionalidades. 
-| Funcionalidade                    | Resumo                                                     |
-|-----------------------------------|------------------------------------------------------------|
-| Crear incidencia                  | *Usuarios crean as incidencias na BBDD*                    |
-| Actualización de incidencias      | *Administrador actualiza estado das incidencias na BBDD*   | 
-| Consulta de incidencias           | *Consultar e filtrar as incidencias na BBDD*               |
-| Eliminar incidencias              | *Administrador pode eliminar incidencias na BBDD*          |
+| Funcionalidade                    | Descrición                                                                |
+|-----------------------------------|-----------------------------------------------------------------------|
+| Crear incidencia                  | *Usuarios crean as incidencias na BBDD*                               |
+| Actualización de incidencias      | *Administrador actualiza estado das incidencias na BBDD*              | 
+| Consulta de incidencias           | *Usuarios e Administrador: Consultar e filtrar as incidencias na BBDD*|
+| Eliminar incidencias              | *Administrador pode eliminar incidencias na BBDD*                     |
 
 **Crear incidencia**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
 
