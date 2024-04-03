@@ -1,10 +1,10 @@
 # Deseño
 
-    a) Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso] Escribir un caso de uso por cada unha das funcionalidades que se indican na fase de análise e indicar o mesmo número ca o asignado na fase anterior.
-    !["Diagrama de casos de uso de usuario anónimo"](../img/Usuario_CompostelaReporta.png)
+a) Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s) tipo(s) de usuario implicados en cada caso de uso] Escribir un caso de uso por cada unha das funcionalidades que se indican na fase de análise e indicar o mesmo número ca o asignado na fase anterior.
+![Diagrama de casos de uso de usuario anónimo](../img/Usuario_CompostelaReporta.png)
 
-    b) Deseño da interface de usuarios [mockups e diagramas de navegación de ventás]. Esquema inicial xeral que se irá detallando segundo avance o desenvolvemento.
+b) Deseño da interface de usuarios [mockups e diagramas de navegación de ventás]. Esquema inicial xeral que se irá detallando segundo avance o desenvolvemento.
 
-    c) Diagrama de Base de Datos. 
+c) Diagrama de Base de Datos. 
     
-    d) Diagrama de compoñentes software que constitúen o produto e de despregue. 
+d) Diagrama de compoñentes software que constitúen o produto e de despregue. 
