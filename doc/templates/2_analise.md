@@ -16,7 +16,7 @@ O proxecto está enfocado en desenvolver unha aplicación web para xestionar e r
 - **1. Crear incidencia**: Permitir aos usuarios reportar incidencias especificando o título, descrición, ubicación e tipo de incidencia.
 
 - **2. Consulta de Incidencias**: 
-Permitirá aos usuarios consultar as incidencias activas. Podráse consultar as últimas incidencias creadas en xeral ou permitirá aos usuarios consultar as incidencias xeradas por eles (*Non vai ser necesario crear usuario, solicitarase o e-mail e xerarase un código hash que se mostrará ao creador da incidencia para poder consultar as súas incidencias no futuro*).
+Permitirá aos usuarios consultar as incidencias activas. Podráse consultar as últimas incidencias creadas en xeral ou permitirá aos usuarios consultar as incidencias xeradas por eles (*Non vai ser necesario crear usuario, xerarase un código hash xerado pola IP que se mostrará ao creador da incidencia para poder consultar as súas incidencias no futuro*).
 
 - **3. Filtrar Incidencias**: 
 Permitirá aos usuarios filtrar as incidencias a consultar tanto por fecha de reporte das incidencias (*As últimas incidencias engadidas*) ou por tipo de incidencia (*Alcantarillado, Alumeado público, Medio Viario...*). 
