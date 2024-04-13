@@ -11,7 +11,7 @@ a) Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s)
 ![Diagrama de casos de uso de usuario administrador](../img/AdminCompostelaReporta.png)
 
 b) Deseño da interface de usuarios [mockups e diagramas de navegación de ventás]. Esquema inicial xeral que se irá detallando segundo avance o desenvolvemento.
-
+![Diagrama de navegacion y mockups](../img/mockup/diagramas_navegacion.png)
 c) Diagrama de Base de Datos.
 
 d) Diagrama de compoñentes software que constitúen o produto e de despregue.
