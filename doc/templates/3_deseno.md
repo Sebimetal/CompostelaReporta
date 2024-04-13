@@ -11,7 +11,17 @@ a) Casos de uso [descritos en fichas e/ou mediante esquemas; deben incluír o(s)
 ![Diagrama de casos de uso de usuario administrador](../img/AdminCompostelaReporta.png)
 
 b) Deseño da interface de usuarios [mockups e diagramas de navegación de ventás]. Esquema inicial xeral que se irá detallando segundo avance o desenvolvemento.
+
+### Diagrama de navegación y mockups
+
 ![Diagrama de navegacion y mockups](../img/mockup/diagramas_navegacion.png)
+
 c) Diagrama de Base de Datos.
+
+### Diagrama
+
+# Al ser una base de datos no relacional no cabe la representación con diagrama de entidad/relación. He representado esta relación con un diagrama de clases.
+
+![Representación da base de datos cun diagrama de clases](../img/Database%20representation.png)
 
 d) Diagrama de compoñentes software que constitúen o produto e de despregue.
