@@ -20,6 +20,8 @@
 
 Ao ser unha base de datos non relacional non cabe a representación co diagrama de entidad/relación. Represento esta relación cun diagrama de clases xa que me parece a forma máis similar para representar a estructura desta base de datos.
 
+En realidade solo habrá dúas coleccións na base de datos, Responder e Issue. Updates non será necesario crear unha colección específica, xa que cada update vai estar relacionado con solo unha incidencia, polo que crearemos un listado de incidencias dentro da colección Issue.
+
 ![Representación da base de datos cun diagrama de clases](../img/DatabaseRepresentation.png)
 
 ## d) Diagrama de compoñentes software que constitúen o produto e de despregue.
