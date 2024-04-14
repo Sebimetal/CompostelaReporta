@@ -30,6 +30,10 @@ Teremos unha interface na que contaremos cunha API de servicios de mapas para fa
 A interface estará relacionado co API REST de backend que fai as peticions HTTP Request.
 O backend fará as consultas á base de datos para recoller ou modificar/eliminar a información almacenada na base de datos.
 
+### Diagrama de compoñentes de software
+
 ![Diagrama de componentes software](../img/SystemComponentDiagram.png)
+
+### Diagrama de despregamento
 
 ![Diagrama de despregamento](../img/DiagramaDespregamento.png)
