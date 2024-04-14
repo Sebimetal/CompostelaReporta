@@ -31,3 +31,5 @@ A interface estará relacionado co API REST de backend que fai as peticions HTTP
 O backend fará as consultas á base de datos para recoller ou modificar/eliminar a información almacenada na base de datos.
 
 ![Diagrama de componentes software](../img/SystemComponentDiagram.png)
+
+![Diagrama de despregamento](../img/DiagramaDespregamento.png)
