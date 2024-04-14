@@ -18,10 +18,11 @@ b) Deseño da interface de usuarios [mockups e diagramas de navegación de vent�
 
 c) Diagrama de Base de Datos.
 
-### Diagrama
+### Diagrama de Base de Datos
 
 # Ao ser unha base de datos non relacional non cabe a representación co diagrama de entidad/relación. Represento esta relación cun diagrama de clases xa que me parece a forma máis similar para representar a estructura desta base de datos.
 
 ![Representación da base de datos cun diagrama de clases](../img/Database%20representation.png)
 
 d) Diagrama de compoñentes software que constitúen o produto e de despregue.
+![Diagrama de componentes software](../img/SystemComponentDiagram.png)
