@@ -20,7 +20,7 @@ c) Diagrama de Base de Datos.
 
 ### Diagrama de Base de Datos
 
-# Ao ser unha base de datos non relacional non cabe a representación co diagrama de entidad/relación. Represento esta relación cun diagrama de clases xa que me parece a forma máis similar para representar a estructura desta base de datos.
+Ao ser unha base de datos non relacional non cabe a representación co diagrama de entidad/relación. Represento esta relación cun diagrama de clases xa que me parece a forma máis similar para representar a estructura desta base de datos.
 
 ![Representación da base de datos cun diagrama de clases](../img/Database%20representation.png)
 
