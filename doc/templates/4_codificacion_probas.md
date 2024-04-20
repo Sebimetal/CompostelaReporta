@@ -20,3 +20,9 @@ Pódese documentar o exercicio empregando fotografías, como esquemas que se pla
 Describe brevemente os retos que te propuxeches e conseguiches incorporar á túa App. Por exemplo se usas software distinto ao utilizado na clase, librerías diferentes, bases de datos, etc..
 Se podes xustifica a elección. 
 Indica unha estimación das horas que che levou no apartado de planificación.
+
+
+Cada entrega:
+Prototipo { Número }
+    Data de entrega: "{ Data de entrega }"
+    Descrición: "{ Descrición do que incorpora a entrega }"
