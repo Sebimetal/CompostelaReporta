@@ -27,23 +27,21 @@ O seguimento vai poder verse por mapa (*Vai incluir un mapa con iconas sobre as 
 - **5. Eliminar incidencias**:
 Permitirá aos administradores poder eliminar unha incidencia.
 
-## c) Requerimentos non funcionais: requerimentos sobre rendemento, seguridade, etc. (Apartado opcional)
-
-## d) Tipos de usuarios.
+## c) Tipos de usuarios.
 - **Anónimos**: Vai permitir aos usuarios anónimos consultar as incidencias activas na plataforma e comunicar incidencias.
 - **Administradores**: Van ser capaces de facer as funcions dos anteriores usuarios e a maiores eliminar incidencias e modificar o estado das incidencias. 
 
-## e) Entorno operacional: estimación de plataformas hardware e software necesarias para a implantación.
+## d) Entorno operacional: estimación de plataformas hardware e software necesarias para a implantación.
 - **Servidores na nube**: Para despregar vamos a necesitar plataformas na nube para poder desprega-la nosa aplicación.
 - **Bases de Datos**: *MongoDB*. Encargarase de almacenar toda a información coa que vamos a traballar. Paréceme interesante usar MongoDB porque ten o tipo de datos GeoJSON que nos permitirá facer consultas máis completas e eficientes *xerando índices espaciais*.
 - **Backend**: *Express JS*. Implementaremos un API Rest. Encargarase de facer as consultas á BBDD e devolver os datos en JSON para xestionalos no frontend.
 - **Frontend**:  *Vue JS*. Xeneraremos a interface web na que o usuario poderá facer as consultas CRUD á nosa backend. 
 
-## f) Interfaces externos: de usuario, software, hardware. Esta sección describe como interaciona o sistema coa súa contorna, especialmente cos seus usuarios humanos.
+## e) Interfaces externos: de usuario, software, hardware. Esta sección describe como interaciona o sistema coa súa contorna, especialmente cos seus usuarios humanos.
 
 - **API Xeolocalización**: Vamos utilizar unha api de xeolocalización para poder mostrar as incidencias no mesmo e poder utilizalo para recoller os datos das coordenadas para almacenar a ubicación de estas. 
 
-## g) Melloras futuras: as versións futuras do sistema poderían incorporar melloras.
+## f) Melloras futuras: as versións futuras do sistema poderían incorporar melloras.
 - **Seguimento de Incidencias reportadas**: Permitir aos usuarios consultar o estado de resolución das incidencias reportadas por eles mesmos.
 - **Xestión de usuarios**: Crear unha plataforma dentro da aplicación para poder xestionar os usuarios creados
 - **Comunicación por e-mail do estado das incidencias**: Permitir comunicar automáticamente aos usuarios que fagan unha incidencia en canto haxa algunha modificación no estado da incidencia.
