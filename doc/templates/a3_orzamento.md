@@ -18,4 +18,4 @@ Despois de planificar os tempos estimados para a realización do proxecto: [Plan
 
 ![Taboa de orzamento](../img/planificacionEOrzamento/PlanOrzamento.png)
 
-*A planificación do proxecto pode adaptarse ao uso de marcos de desenvolvemento áxiles, como Scrum, baseados no desenvolvemento incremental en base a ciclos ou iteracións relativamente curtas.*
+*\*O tempo estimado para que o proxecto sexa levado a cabo son de 100 horas repartido en 3 meses*
