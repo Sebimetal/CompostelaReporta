@@ -53,6 +53,4 @@ Durante esta fase final, elaboraranse os manuais de usuario e de administración
 
 - **Data de término xeral:** 19/20 de xuño
 
-### Diagrama de gantt da planificación do proxecto
 
-![Diagrama de gantt da planificación do proxecto](../img/CompostelaReporta_Gantt.png)
