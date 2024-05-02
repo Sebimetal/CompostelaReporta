@@ -3,13 +3,13 @@
 # Prototipos realizados
 
 ## Review 1
-    __Data de entrega:__ " 01/05/2024 "
-    __Descrición:__ 
-    Back-End:
-     Funcións CRUD máis xenericas creadas. Schemas para a nosa BBDD implantadas. 
-    Front-End:
-     Mainpage na que se mostran as incidencias creadas tanto no mapa como en listado.
-     Páxina con formulario para crear incidencia.
+__Data de entrega:__ " 01/05/2024 "
+__Descrición:__ 
+Back-End:
+    Funcións CRUD máis xenericas creadas. Schemas para a nosa BBDD implantadas. 
+Front-End:
+    Mainpage na que se mostran as incidencias creadas tanto no mapa como en listado.
+    Páxina con formulario para crear incidencia.
 
 ## Retos e Innovación
 
