@@ -14,9 +14,9 @@ Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axei
 
 ### Daniel Sebio - Desenvolvedor Web
 
-Ola, son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end.
+Ola, son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end como pode ser JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
 
-Os meus puntos fortes inclúen unha habilidade sólida en JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
+Os meus puntos fortes inclúen a capacidade de informarme de maneira efectiva, a autosuficiencia e adaptabilidade a novos retos. Tamén teño habilidades sólidas de comunicación e traballo ben tanto de forma independente como en equipo.
 
 Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
 
