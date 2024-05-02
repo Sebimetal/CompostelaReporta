@@ -1,11 +1,9 @@
 # Proxecto de fin de ciclo DAW
-
-> *Tarefa*: Este documento será a páxina de inicio do teu proxecto. Será o primeiro que vexan os que se interesen por el. Coida a súa redacción e ortografía. Elimina todas as liñas "*Tarefa*" cando teñas a redacción de todo o proxecto completada.
-> Podes acompañar a redacción deste ficheiros con imaxes ou GIFs, pero non abuses deles.
-
 ## Descrición
 
-> *Tarefa*: Realiza unha breve descrición do proxecto (entre 100 e 300 palabras). Resalta o fundamental **coas túas palabras**. Utiliza unha linguaxe correcta, pero natural, que o entenda todo o mundo, incluso e en especial, as persoas que non teñan un coñecemento técnico avanzado. Pode ser un estrato ou resumo dos apartados que se contemplan na memoria.
+Benvidos ao noso proxecto!
+
+Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de comunicación áxil entre o Concello de Santiago de Compostela e os seus cidadáns**. O noso obxectivo principal é **informar sobre as diversas incidencias que poidan xurdir na nosa cidade**, permitindo á comunidade **notificar esas incidencias para manter ao concello informado**. Ao mesmo tempo, a nosa aplicación tamén ofrece a posibilidade de **consultar as incidencias activas** en Santiago de Compostela. ¡Acompáñanos nesta iniciativ
 
 ## Uso
 
@@ -14,7 +12,17 @@ Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axei
 
 ## Sobre a persoa autora
 
-> *Tarefa*: Realiza unha breve descrición de quen es desde unha perspectiva profesional, os teus puntos fortes, tecnoloxías que máis dominas e o motivo de por que te decantaches por este proxecto. **Non máis de 200 palabras**. Indica unha forma fiable de contactar contigo no presente e no futuro.
+O meu nome é Daniel Sebio, son un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end.
+ 
+Os meus puntos fortes inclúen unha habilidade sólida en JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB. 
+
+Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. 
+
+Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
+
+Podes contactar comigo por correo electrónico en daniel.sebio@gmail.com ou a través do meu perfil de LinkedIn en linkedin.com/in/dsebio.
+
+
 
 ## Licencia
 
