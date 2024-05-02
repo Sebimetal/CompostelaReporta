@@ -29,6 +29,13 @@ Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailt
 ## Licencia
 
 [Licencia](./LICENSE)
+```markdown
+O contido desta páxina web, incluíndo texto, imaxes, gráficos e outros elementos, está protexido baixo a seguinte licenza:
+
+Todos os dereitos reservados © 2024 Compostela Reporta.
+
+O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.
+
 
 ## Guía de contribución
 
