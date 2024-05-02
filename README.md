@@ -24,17 +24,15 @@ Decanteime por este proxecto porque creo na importancia de establecer canles efi
 Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailto:daniel.sebio@gmail.com) ou a través do meu perfil de LinkedIn en [es.linkedin.com/in/dsebio](https://es.linkedin.com/in/dsebio).
 
 
-
-
 ## Licencia
 
 [Licencia](./LICENSE)
-```markdown
+
 O contido desta páxina web, incluíndo texto, imaxes, gráficos e outros elementos, está protexido baixo a seguinte licenza:
 
 Todos os dereitos reservados © 2024 Compostela Reporta.
 
-O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.```
+O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.
 
 ## Guía de contribución
 
