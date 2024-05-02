@@ -20,7 +20,7 @@ Decanteime por este proxecto porque creo na importancia de establecer canles efi
 
 Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
 
-Podes contactar comigo por correo electrónico en daniel.sebio@gmail.com ou a través do meu perfil de LinkedIn en linkedin.com/in/dsebio.
+Podes contactar comigo por correo electrónico en daniel.sebio@gmail.com ou a través do meu perfil de LinkedIn en https://es.linkedin.com/in/dsebio.
 
 
 
