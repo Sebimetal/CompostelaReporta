@@ -28,7 +28,7 @@ Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailt
 
 ## Licencia
 
-> *Tarefa*: É requisito INDISPENSABLE licenciar explicitamente o proxecto. Crea un ficheiro `LICENSE` na raíz do repositorio.
+[Licencia](./LICENSE)
 
 ## Guía de contribución
 
