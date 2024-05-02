@@ -18,7 +18,7 @@ Ola, son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnolox
 
 Os meus puntos fortes inclúen a capacidade de informarme de maneira efectiva, a autosuficiencia e adaptabilidade a novos retos. Tamén teño habilidades sólidas de comunicación e traballo ben tanto de forma independente como en equipo.
 
-Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
+Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. Esta iniciativa non só me permite desenvolver as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. A miña intención é a de desenvolver unha aplicación web que sexa eficiente e fácil de usar para os usuarios finais.
 
 #### Contacto
 Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailto:daniel.sebio@gmail.com) ou a través do meu perfil de LinkedIn en [es.linkedin.com/in/dsebio](https://es.linkedin.com/in/dsebio).
