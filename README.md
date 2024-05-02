@@ -12,15 +12,17 @@ Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axei
 
 ## Sobre a persoa autora
 
-O meu nome é Daniel Sebio, son un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end.
- 
-Os meus puntos fortes inclúen unha habilidade sólida en JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB. 
+### Daniel Sebio - Desenvolvedor Web
 
-Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. 
+Ola, son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end.
 
-Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
+Os meus puntos fortes inclúen unha habilidade sólida en JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
 
-Podes contactar comigo por correo electrónico en daniel.sebio@gmail.com ou a través do meu perfil de LinkedIn en https://es.linkedin.com/in/dsebio.
+Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. Esta iniciativa non só me permite aplicar as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. Estou comprometido a desenvolver unha aplicación web que sexa accesible, eficiente e fácil de usar para os usuarios finais.
+
+#### Contacto
+Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailto:daniel.sebio@gmail.com) ou a través do meu perfil de LinkedIn en [es.linkedin.com/in/dsebio](https://es.linkedin.com/in/dsebio).
+
 
 
 
