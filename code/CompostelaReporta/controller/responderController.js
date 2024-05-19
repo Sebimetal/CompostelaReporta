@@ -1,4 +1,4 @@
-const { Responder } = require('../models/Models.js');
+const { Responder } = require('../models/index.js');
 
 /*async function createResponder(req, res) {
   try {

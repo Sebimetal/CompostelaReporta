@@ -18,6 +18,7 @@ export default {
   methods: {
     changeComponent(component) {
       this.selectedComponent = component;
+      console.log(component);
     },
   },
 };
@@ -25,7 +26,10 @@ export default {
 
 <template>
   <Header @componentChange="changeComponent" class="mb-4"></Header>
-  <component :is="this.selectedComponent"></component>
+  <component
+    :is="this.selectedComponent"
+    @componentChange="changeComponent"
+  ></component>
   <BotonEngadir
     v-if="this.selectedComponent != 'CreateIssue'"
     @componentChange="changeComponent"

@@ -28,6 +28,13 @@ export default {
         this.isLoading = false;
       }
     },
+    switchComponent(newComponent) {
+      this.$emit('componentChange', newComponent);
+    },
+    async handleIssueDeleted(issueId) {
+      // Filtrar a lista de incidencias para quitar a eliminada
+      this.issues = this.issues.filter((issue) => issue._id !== issueId);
+    },
     loadIssuesOnMap() {},
   },
 
@@ -45,8 +52,8 @@ export default {
       <div class="card">
         <div class="card-body">
           <h2 class="card-title text-center">Benvidos a Compostela Reporta</h2>
-          <h4 class="card-body text-center w-50 m-auto">
-            Conecta co Concello. Reporta incidencias, manténte informado e fai
+          <h4 class="card-body text-center w-sm-80 w-50 m-auto">
+            Conecta co Concello. Reporta incidencias, manténte informado e faite
             parte do cambio. Axudemos a facer de Santiago de Compostela unha
             cidade mellor.
           </h4>
@@ -55,7 +62,7 @@ export default {
     </div>
   </div>
   <MapSantiago :issues="issues"></MapSantiago>
-  <ShowIssues :issues="issues"></ShowIssues>
+  <ShowIssues :issues="issues" @componentChange="switchComponent"></ShowIssues>
 </template>
 
 <style></style>

@@ -18,7 +18,7 @@ export default {
 };
 </script>
 <template>
-  <div class="d-flex flex-column fixed-bottom align-items-end m-2">
+  <div class="position-fixed bottom-0 end-0 m-2">
     <button
       @click="switchComponent('CreateIssue')"
       class="btn btn-primary add-incidence"

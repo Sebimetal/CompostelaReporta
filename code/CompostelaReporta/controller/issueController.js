@@ -1,4 +1,4 @@
-const { Issue, Update } = require('../models/Models.js');
+const { Issue, Update } = require('../models/index.js');
 const crypto = require('crypto');
 
 // Función para convertir o e-mail do usuario que crea a incidencia a un código HASH
@@ -9,6 +9,12 @@ function hashIp(ip) {
   return userHash;
 }
 
+/**
+ * Recollendo tódalas incidencias da base de datos
+ * @param {object} req Non usado
+ * @param {object} res Express.js obxecto esponse
+ * @throws {Error} Lanza erro se encontra fallos ao facer o fetch das incidencias
+ */
 async function findAllIssues(req, res) {
   try {
     const issues = await Issue.find();
@@ -18,6 +24,13 @@ async function findAllIssues(req, res) {
   }
 }
 
+/**
+ * Recollendo a incidencia da base de datos
+ * @param {object} req Mandamos no obxecto request como parámetro o string do ID da incidencia
+ * @param {object} res Express.js obxecto response
+ * @returns {Issue} Devolvemos incidencia en formato JSON
+ * @throws {Error} Lanza erro se encontra fallos ao facer o fetch das incidencias
+ */
 async function findOneIssue(req, res) {
   try {
     const issue = await Issue.findById(req.params.id);
@@ -30,6 +43,14 @@ async function findOneIssue(req, res) {
   }
 }
 
+/**
+ * Recollendo da base de datos a incidencia en forma de obxecto
+ *
+ * @param {object} req Mandamos no obxecto request como parámetro o string do ID da incidencia
+ * @param {object} res Express.js obxecto response
+ * @returns {Issue} Devolvemos a incidencia como obxecto en vez de formato JSON
+ * @throws {Error} Lanza erro se encontra fallos ao facer o fetch das incidencias
+ */
 async function findOneIssueObject(id) {
   try {
     const issue = await Issue.findById(id);
@@ -42,12 +63,13 @@ async function findOneIssueObject(id) {
 // Usuario anónimo crea unha incidencia
 async function createIssue(req, res) {
   /*Necesitan pasarse mínimo os seguintes parámetros
-  description, location, issueType, responder(ID)
+  description, location, issueType (caso de usuario anónimo)
   */
   try {
     const {
       description,
       location,
+      address,
       issueType,
       creationDate,
       updateDate,
@@ -57,20 +79,15 @@ async function createIssue(req, res) {
     const newIssue = new Issue({
       description,
       location,
+      address,
       issueType,
       creationDate,
       updateDate,
       reporterHash,
       responder,
     });
-    const requiredParams = [
-      'description',
-      'location',
-      'issueType',
-      'responder',
-    ];
-
-    // Check if all required parameters are present and not empty
+    const requiredParams = ['description', 'location', 'issueType'];
+    // Comprobando se os parámetros requeridos están cubertos
     for (const param of requiredParams) {
       if (!newIssue[param] || newIssue[param] === '') {
         console.log(param);
@@ -78,10 +95,22 @@ async function createIssue(req, res) {
         res.status(400).json({
           error: `El parámetro '${param}' no puede estar vacío.`,
         });
-        return; // Exit the function if any parameter is empty
+        return; // Saindo da función en caso de que algún parámetro non esté cuberto
       }
     }
-
+    // Recollemos ca API nominatim a dirección usando as coordenadas.
+    try {
+      const response = await fetch(
+        `https://nominatim.openstreetmap.org/reverse?format=jsonv2&lat=${newIssue.location.coordinates[0]}&lon=${newIssue.location.coordinates[1]}`
+      );
+      const data = await response.json();
+      let address = data.address;
+      newIssue.address = `${address.road}, ${address.city}`;
+    } catch (error) {
+      console.error('Error al obtener la dirección:', error);
+      throw error; // Lanzar el error para manejarlo fuera de la función si es necesario
+    }
+    // Creando Issue na BBDD
     await Issue.create(newIssue);
 
     res.status(201).json(newIssue);
@@ -91,6 +120,13 @@ async function createIssue(req, res) {
   }
 }
 
+/**
+ * Engadir actualización á incidencia
+ *
+ * @param {object} req Pasamos como parámetros o ID da incidencia mais os
+ *                     datos para crear a actualización (date, description e newStatus)
+ * @returns {object}
+ */
 async function assignUpdate(req, res) {
   try {
     const { issueId, date, description, newStatus } = req.body;
@@ -115,4 +151,31 @@ async function assignUpdate(req, res) {
   }
 }
 
-module.exports = { findAllIssues, findOneIssue, createIssue, assignUpdate };
+/**
+ * Eliminar unha incidencia da base de datos
+ *
+ * @param {object} req Express.js objeto request, contiene el ID de la incidencia en req.params.id
+ * @param {object} res Express.js objeto response
+ * @returns {object} Mensaje de éxito o error
+ * @throws {Error} Lanza error si encuentra fallos al eliminar la incidencia
+ */
+async function deleteIssue(req, res) {
+  try {
+    const issueId = req.params.id;
+    const issue = await Issue.findByIdAndDelete(issueId);
+    if (!issue) {
+      return res.status(404).json({ message: 'Incidencia non atopada' });
+    }
+    res.status(200).json({ message: 'Incidencia eliminada correctamente' });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+}
+
+module.exports = {
+  findAllIssues,
+  findOneIssue,
+  createIssue,
+  assignUpdate,
+  deleteIssue,
+};
