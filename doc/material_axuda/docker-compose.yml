@@ -1,0 +1,35 @@
+version: '3'
+services:
+  frontend:
+    build: ./FrontCompostelaReporta
+    ports:
+      - '8080:80'
+    volumes:
+      - ./FrontCompostelaReporta:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    environment:
+      NODE_ENV: production
+  backend:
+    build: ./CompostelaReporta
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./CompostelaReporta:/app
+      - /app/node_modules
+    env_file:
+      - ./CompostelaReporta/.env
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: production
+  mongo:
+    image: mongo:4.2
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+volumes:
+  mongo-data:
