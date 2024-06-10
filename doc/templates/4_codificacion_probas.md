@@ -56,3 +56,31 @@ Despregue:
     A miña idea era despregar tanto front como back no mesmo servizo, vercel para front é facil o despregue, ao parecer permite tamén facer o despregue de back de node pero non fun capáz de que fora funcional. Intentei despregar con docker na máquina virtual de oracle que xa habíamos utilizado na materia de Despregamento pero tiña o mesmo problema que tiña ao intentar desplegar Prestashop, a máquina non cumple os requisitos mínimos e ao intentar despregalo queda bloqueada.
 
     Finalmente investigando online algunha plataforma que nos permitise o despregamento gratuito e sen necesidade de incluir ningún método de pago. Optei por render.com despois de visitar varios como Heroku (Solicita método de pago) ou cyclic que están dende o día 10/05/2024 sen permitir crear ningunha conta nova e a partir do 31/05/2024 eliminan o seu plan free.
+
+## Review 3
+
+**Data de entrega:** " 12/06/2024 "
+
+**Descrición:**
+
+Back-End:
+
+    Implantados novos métodos de filtrado para solicitudes dende o front con varios filtros puidendo filtrar por un, varios ou ningún dos filtros.
+
+Front-End:
+
+    Tódolos compoñentes implantados. Formateo de cada un dos compoñentes con Bootstrap 5 e inserción de iconas propias e iconas da librería font awesome. Solicitude as coordenadas da localización do usuario para introducir as coordenadas automáticamente ao crear unha nova incidencia.
+
+Despregue:
+
+   Arranxado problema de Nginx coa funcionalidade de RouterView de Vue 3 JS.
+
+### Retos e Innovación
+
+#### Reto 1:
+
+    Ao utilizar RouterView para o cambio entre compoñentes na aplicación front, as rutas establecidas no front non eran compatibles con Nginx e devolvía erro 404 not found en vez de redireccionar ao compoñente. O maior problema era saber como poder configurar este servidor na propia plataforma de despregue. Solventado finalmente configurando o arquivo Dockerfile introducindo o arquivo de configuración como un volume.
+
+#### Reto 2:
+    
+    
