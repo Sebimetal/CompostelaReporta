@@ -7,7 +7,7 @@ Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de
 
 ## Uso
 
-> *Tarefa*: **Indica a URL para poder acceder á túa aplicación web**. 
+> https://compostelareporta.me/ 
 Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axeitado.
 
 ## Sobre a persoa autora
