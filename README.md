@@ -14,7 +14,7 @@ Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axei
 
 ### Daniel Sebio - Desenvolvedor Web
 
-Ola, son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end como pode ser JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
+Son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end como pode ser JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
 
 Os meus puntos fortes inclúen a capacidade de informarme de maneira efectiva, a autosuficiencia e adaptabilidade a novos retos. Tamén teño habilidades sólidas de comunicación e traballo ben tanto de forma independente como en equipo.
 
@@ -34,9 +34,6 @@ Todos os dereitos reservados © 2024 Compostela Reporta.
 
 O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.
 
-## Guía de contribución
-
-> *Tarefa*: Se o teu proxecto se trata de software libre, é importante que expoñas como se pode contribuír a el. Algúns exemplos disto son realizar novas funcionalidades, corrección e/ou optimización de código, realización de tests automatizados, novas interfaces de integración, desenvolvemento de plugins, etc. Intenta dar unha mensaxe concisa.
 
 ## Memoria
 
