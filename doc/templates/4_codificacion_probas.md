@@ -51,11 +51,11 @@ Despregue:
 
 #### Reto 1:
 
-    Neste review, o maior reto foi o despregue do mesmo, consumin a maior parte do tempo que dediquei ao proxecto a esto xa que sabía que me iba a levar tempo ter todo despregado sen problema e prefería telo adiantado.
+Neste review, o maior reto foi o despregue do mesmo, consumin a maior parte do tempo que dediquei ao proxecto a esto xa que sabía que me iba a levar tempo ter todo despregado sen problema e prefería telo adiantado.
 
-    A miña idea era despregar tanto front como back no mesmo servizo, vercel para front é facil o despregue, ao parecer permite tamén facer o despregue de back de node pero non fun capáz de que fora funcional. Intentei despregar con docker na máquina virtual de oracle que xa habíamos utilizado na materia de Despregamento pero tiña o mesmo problema que tiña ao intentar desplegar Prestashop, a máquina non cumple os requisitos mínimos e ao intentar despregalo queda bloqueada.
+A miña idea era despregar tanto front como back no mesmo servizo, vercel para front é facil o despregue, ao parecer permite tamén facer o despregue de back de node pero non fun capáz de que fora funcional. Intentei despregar con docker na máquina virtual de oracle que xa habíamos utilizado na materia de Despregamento pero tiña o mesmo problema que tiña ao intentar desplegar Prestashop, a máquina non cumple os requisitos mínimos e ao intentar despregalo queda bloqueada.
 
-    Finalmente investigando online algunha plataforma que nos permitise o despregamento gratuito e sen necesidade de incluir ningún método de pago. Optei por render.com despois de visitar varios como Heroku (Solicita método de pago) ou cyclic que están dende o día 10/05/2024 sen permitir crear ningunha conta nova e a partir do 31/05/2024 eliminan o seu plan free.
+Finalmente investigando online algunha plataforma que nos permitise o despregamento gratuito e sen necesidade de incluir ningún método de pago. Optei por render.com despois de visitar varios como Heroku (Solicita método de pago) ou cyclic que están dende o día 10/05/2024 sen permitir crear ningunha conta nova e a partir do 31/05/2024 eliminan o seu plan free.
 
 ## Review 3
 
@@ -73,20 +73,20 @@ Front-End:
 
 Despregue:
 
-   Arranxado problema de Nginx coa funcionalidade de RouterView de Vue 3 JS.
+Arranxado problema de Nginx coa funcionalidade de RouterView de Vue 3 JS.
 
 ### Retos e Innovación
 
 #### Reto 1:
 
-    Ao utilizar RouterView para o cambio entre compoñentes na aplicación front, as rutas establecidas no front non eran compatibles con Nginx e devolvía erro 404 not found en vez de redireccionar ao compoñente. O maior problema era saber como poder configurar este servidor na propia plataforma de despregue. Solventado finalmente configurando o arquivo Dockerfile introducindo o arquivo de configuración como un volume.
+Ao utilizar RouterView para o cambio entre compoñentes na aplicación front, as rutas establecidas no front non eran compatibles con Nginx e devolvía erro 404 not found en vez de redireccionar ao compoñente. O maior problema era saber como poder configurar este servidor na propia plataforma de despregue. Solventado finalmente configurando o arquivo Dockerfile introducindo o arquivo de configuración como un volume.
 
 #### Reto 2:
     
-    Revisión do código, a refactorización e a comprobación da usabilidade da páxina web ao modificar o deseño. 
-    Ao querer mover botóns a compoñentes diferentes dos inicialmente previstos para a súa funcionalidade, tiven que modificar os compoñentes e comunicar os cambios mediante props/emits, de xeito que enviasen o novo estado ao compoñente funcional.
+Revisión do código, a refactorización e a comprobación da usabilidade da páxina web ao modificar o deseño. 
+Ao querer mover botóns a compoñentes diferentes dos inicialmente previstos para a súa funcionalidade, tiven que modificar os compoñentes e comunicar os cambios mediante props/emits, de xeito que enviasen o novo estado ao compoñente funcional.
 
 #### Reto 3:
     
-    Autenticación e Autorización.
-    Durante o desenvolvemento da funcionalidade de filtrado, foi necesario implementar mecanismos de autenticación e autorización para garantir que só os usuarios autorizados puideran acceder e utilizar certas funcións de filtrado. Isto implicou a integración de JWT (JSON Web Tokens) no back-end e a configuración do front-end para manexar tokens de forma segura.
+Autenticación e Autorización.
+Durante o desenvolvemento da funcionalidade de filtrado, foi necesario implementar mecanismos de autenticación e autorización para garantir que só os usuarios autorizados puideran acceder e utilizar certas funcións de filtrado. Isto implicou a integración de JWT (JSON Web Tokens) no back-end e a configuración do front-end para manexar tokens de forma segura.
