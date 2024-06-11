@@ -1,15 +1,3 @@
-<style>
-    body {
-        overflow-x: hidden;
-    }
-
-    p, div, pre {
-        white-space: pre-wrap; /* Mantiene los saltos de línea y permite el ajuste automático de líneas */
-        word-wrap: break-word; /* Rompe las palabras largas para que se ajusten al contenedor */
-        overflow-wrap: break-word; /* Maneja el desbordamiento de palabras de manera similar */
-    }
-</style>
-
 # Codificación e Probas
 
 # Prototipos realizados
