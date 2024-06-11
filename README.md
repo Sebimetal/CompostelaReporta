@@ -3,18 +3,19 @@
 
 Benvidos ao noso proxecto!
 
-Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de comunicación áxil entre o Concello de Santiago de Compostela e os seus cidadáns**. O noso obxectivo principal é **informar sobre as diversas incidencias que poidan xurdir na nosa cidade**, permitindo á comunidade **notificar esas incidencias para manter ao concello informado**. Ao mesmo tempo, a nosa aplicación tamén ofrece a posibilidade de **consultar as incidencias activas** en Santiago de Compostela. ¡Acompáñanos nesta iniciativ
+Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de comunicación áxil entre o Concello de Santiago de Compostela e os seus cidadáns**. O noso obxectivo principal é **informar sobre as diversas incidencias que poidan xurdir na nosa cidade**, permitindo á comunidade **notificar esas incidencias para manter ao concello informado**. Ao mesmo tempo, a nosa aplicación tamén ofrece a posibilidade de **consultar as incidencias activas** en Santiago de Compostela. ¡Acompáñanos nesta iniciativa!
 
 ## Uso
+Link á nosa aplicación:
+> https://compostelareporta.me/
 
-> https://compostelareporta.me/ 
 Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axeitado.
 
 ## Sobre a persoa autora
 
 ### Daniel Sebio - Desenvolvedor Web
 
-Son Daniel Sebio, un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end como pode ser JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
+Son un desenvolvedor web con experiencia en diversas tecnoloxías front-end e back-end como JavaScript, tanto en frameworks como VueJS e Node.js, así como en tecnoloxías como HTML5, CSS3 e MongoDB.
 
 Os meus puntos fortes inclúen a capacidade de informarme de maneira efectiva, a autosuficiencia e adaptabilidade a novos retos. Tamén teño habilidades sólidas de comunicación e traballo ben tanto de forma independente como en equipo.
 

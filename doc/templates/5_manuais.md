@@ -1,10 +1,9 @@
 # Implantación
-
-**Pon o teu proxecto na nube e faino accesible**. 
-Podes usar ferramentas dispoñibles en: https://education.github.com/pack
+Despregado mediante a plataforma online render.com. O proxecto está accesible dende o link. https://compostelareporta.me/
 
 # Diagrama de despregue e Diagrama de Compoñentes de software
 Deben indicarse os compoñentes software implicados. p.e. Framework Laravel, Vue.js, MySQL, etc.
+
 
 # Manual técnico
 
