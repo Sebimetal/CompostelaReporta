@@ -65,15 +65,25 @@ Despregue:
 
 Back-End:
 
-- Implantados novos métodos de filtrado para solicitudes dende o front con varios filtros puidendo filtrar por un, varios ou ningún dos filtros.
+- Implantados novos métodos de filtrado para solicitudes dende o front con varios filtros puidendo filtrar por un, varios ou ningún dos filtros. Implantado métodos de autenticación
 
 Front-End:
 
 - Tódolos compoñentes implantados. Formateo de cada un dos compoñentes con Bootstrap 5 e inserción de iconas propias e iconas da librería font awesome. Solicitude as coordenadas da localización do usuario para introducir as coordenadas automáticamente ao crear unha nova incidencia.
+- Almacenamento seguro de tokens de acceso:
+Utilizados métodos seguros para almacenar e manexar os tokens de acceso no front-end en localStorage e evitar vulnerabilidades como XSS (Cross-Site Scripting).
+- Implementado un manexo adecuado de erros de autenticación no front-end para proporcionar retroalimentación clara ao usuario en caso de erros de inicio de sesión ou acceso non autorizado.
 
 Despregue:
 
 - Arranxado problema de Nginx coa funcionalidade de RouterView de Vue 3 JS.
+- Reforzo da seguridade das contrasinais:
+Utiliza técnicas como o hash de contrasinais con algoritmos seguros (por exemplo, bcrypt) e salting para almacenar as contrasinais dos usuarios de forma segura na túa base de datos.
+
+- Manexo de sesións:
+Implementa un sistema de manexo de sesións seguro para manter o estado de autenticación do usuario entre solicitudes. Isto pode incluír a xeración e xestión de tokens de sesión seguros.
+
+Espero que esta tradución sexa do teu agrado. Se necesitas máis axuda ou información, estou aquí para axudar.
 
 ### Retos e Innovación
 
