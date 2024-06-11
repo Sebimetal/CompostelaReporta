@@ -86,3 +86,8 @@ Despregue:
     Revisión do código, a refactorización e a comprobación da usabilidade da páxina web ao modificar o deseño. 
     Ao querer mover botóns a compoñentes diferentes dos inicialmente previstos para a súa funcionalidade, tiven que modificar os compoñentes e comunicar os cambios mediante props/emits, de xeito que enviasen o novo estado ao compoñente funcional.
 
+#### Reto 3:
+    
+    Autenticación e Autorización
+
+    Durante o desenvolvemento da funcionalidade de filtrado, foi necesario implementar mecanismos de autenticación e autorización para garantir que só os usuarios autorizados puideran acceder e utilizar certas funcións de filtrado. Isto implicou a integración de JWT (JSON Web Tokens) no back-end e a configuración do front-end para manexar tokens de forma segura.
