@@ -83,4 +83,6 @@ Despregue:
 
 #### Reto 2:
     
-    
+    Revisión do código, a refactorización e a comprobación da usabilidade da páxina web ao modificar o deseño. 
+    Ao querer mover botóns a compoñentes diferentes dos inicialmente previstos para a súa funcionalidade, tiven que modificar os compoñentes e comunicar os cambios mediante props/emits, de xeito que enviasen o novo estado ao compoñente funcional.
+
