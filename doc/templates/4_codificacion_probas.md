@@ -42,11 +42,11 @@ Front-End:
 Podemos ver cada incidencia específicamente. Podemos crear incidencias. Podemos elimina-las incidencias. ONGOING: Boton editar incidencia.
 
 Despregue:
-```
-Temos creados Dockerfile para front como para backend e docker-compose.yaml para crear os contenedores de front con NGINX, back e mongodb. É posible despregar en local o código descargandoo, cambiando o nome de /CompostelaReporta/.env_DATAExample a .env e usando docker compose con "docker compose up --build" na carpeta inicial podemos entrar en localhost:8080 directamente para acceder a nosa aplicación.
 
-Tamén está despregado actualmente en https://compostelareporta.me/. Tanto front como back están despregados en render, mentres que MongoDB utilizamos o propio Atlas que é o cloud propio de MongoDB. Hai que ter en conta que ao ser un servizo gratuito, é posible que tarde en cargar xa que se non recibe peticións suele poñerse en modo standby e tarda uns 50 segundos en reactivarse cando recibe unha petición.
-```
+- Temos creados Dockerfile para front como para backend e docker-compose.yaml para crear os contenedores de front con NGINX, back e mongodb. É posible despregar en local o código descargandoo, cambiando o nome de /CompostelaReporta/.env_DATAExample a .env e usando docker compose con "docker compose up --build" na carpeta inicial podemos entrar en localhost:8080 directamente para acceder a nosa aplicación.
+
+- Tamén está despregado actualmente en https://compostelareporta.me/. Tanto front como back están despregados en render, mentres que MongoDB utilizamos o propio Atlas que é o cloud propio de MongoDB. Hai que ter en conta que ao ser un servizo gratuito, é posible que tarde en cargar xa que se non recibe peticións suele poñerse en modo standby e tarda uns 50 segundos en reactivarse cando recibe unha petición.
+
 ### Retos e Innovación
 
 #### Reto 1:
