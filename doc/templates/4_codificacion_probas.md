@@ -10,12 +10,12 @@
 
 Back-End:
 
-    Funcións CRUD máis xenericas creadas. Schemas para a nosa BBDD implantadas.
+Funcións CRUD máis xenericas creadas. Schemas para a nosa BBDD implantadas.
 
 Front-End:
 
-    Mainpage na que se mostran as incidencias creadas tanto no mapa como en listado.
-    Páxina con formulario para crear incidencia.
+Mainpage na que se mostran as incidencias creadas tanto no mapa como en listado.
+Páxina con formulario para crear incidencia.
 
 ### Retos e Innovación
 
@@ -35,18 +35,18 @@ NodeJS / Express JS: O principal desafío residía na comprensión da estruturac
 
 Back-End:
 
-    Implantada a solicitude á API para recoller a dirección polas coordenadas a back ao crear unha nova incidencia en vez de cargalas no front.
+Implantada a solicitude á API para recoller a dirección polas coordenadas a back ao crear unha nova incidencia en vez de cargalas no front.
 
 Front-End:
 
-    Podemos ver cada incidencia específicamente. Podemos crear incidencias. Podemos elimina-las incidencias. ONGOING: Boton editar incidencia.
+Podemos ver cada incidencia específicamente. Podemos crear incidencias. Podemos elimina-las incidencias. ONGOING: Boton editar incidencia.
 
 Despregue:
+```
+Temos creados Dockerfile para front como para backend e docker-compose.yaml para crear os contenedores de front con NGINX, back e mongodb. É posible despregar en local o código descargandoo, cambiando o nome de /CompostelaReporta/.env_DATAExample a .env e usando docker compose con "docker compose up --build" na carpeta inicial podemos entrar en localhost:8080 directamente para acceder a nosa aplicación.
 
-    Temos creados Dockerfile para front como para backend e docker-compose.yaml para crear os contenedores de front con NGINX, back e mongodb. É posible despregar en local o código descargandoo, cambiando o nome de /CompostelaReporta/.env_DATAExample a .env e usando docker compose con "docker compose up --build" na carpeta inicial podemos entrar en localhost:8080 directamente para acceder a nosa aplicación.
-
-    Tamén está despregado actualmente en https://compostelareporta.me/. Tanto front como back están despregados en render, mentres que MongoDB utilizamos o propio Atlas que é o cloud propio de MongoDB. Hai que ter en conta que ao ser un servizo gratuito, é posible que tarde en cargar xa que se non recibe peticións suele poñerse en modo standby e tarda uns 50 segundos en reactivarse cando recibe unha petición.
-
+Tamén está despregado actualmente en https://compostelareporta.me/. Tanto front como back están despregados en render, mentres que MongoDB utilizamos o propio Atlas que é o cloud propio de MongoDB. Hai que ter en conta que ao ser un servizo gratuito, é posible que tarde en cargar xa que se non recibe peticións suele poñerse en modo standby e tarda uns 50 segundos en reactivarse cando recibe unha petición.
+```
 ### Retos e Innovación
 
 #### Reto 1:
