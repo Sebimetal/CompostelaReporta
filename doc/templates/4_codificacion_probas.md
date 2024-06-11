@@ -78,12 +78,11 @@ Despregue:
 
 - Arranxado problema de Nginx coa funcionalidade de RouterView de Vue 3 JS.
 - Reforzo da seguridade das contrasinais:
-Utiliza técnicas como o hash de contrasinais con algoritmos seguros (por exemplo, bcrypt) e salting para almacenar as contrasinais dos usuarios de forma segura na túa base de datos.
+Utilizado o hash de contrasinais con algoritmos seguros coa librería bcrypt para almacenar as contrasinais dos usuarios de forma segura na base de datos.
 
 - Manexo de sesións:
-Implementa un sistema de manexo de sesións seguro para manter o estado de autenticación do usuario entre solicitudes. Isto pode incluír a xeración e xestión de tokens de sesión seguros.
+Implementado un sistema de manexo de sesións seguro para manter o estado de autenticación do usuario entre solicitudes. Coa xeración e xestión de tokens de sesión seguros.
 
-Espero que esta tradución sexa do teu agrado. Se necesitas máis axuda ou información, estou aquí para axudar.
 
 ### Retos e Innovación
 
