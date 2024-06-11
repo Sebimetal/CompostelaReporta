@@ -2,8 +2,9 @@
 Despregado mediante a plataforma online render.com. O proxecto está accesible dende o link. https://compostelareporta.me/
 
 # Diagrama de despregue e Diagrama de Compoñentes de software
-Deben indicarse os compoñentes software implicados. p.e. Framework Laravel, Vue.js, MySQL, etc.
+
 ![Diagrama de despregamento](../img/DiagramaDespregamento.png)
+
 #### Servizo Web:
 Despregado en render.com:
 - Front end: Vue 3 JS - Javascript
