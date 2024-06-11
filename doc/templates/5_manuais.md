@@ -3,6 +3,19 @@ Despregado mediante a plataforma online render.com. O proxecto está accesible d
 
 # Diagrama de despregue e Diagrama de Compoñentes de software
 Deben indicarse os compoñentes software implicados. p.e. Framework Laravel, Vue.js, MySQL, etc.
+![Diagrama de despregamento](../img/DiagramaDespregamento.png)
+#### Servizo Web:
+Despregado en render.com:
+    - Front end: Vue 3 JS - Javascript
+    - Back end: Express JS - Node JS
+
+#### Servidor BBDD:
+Despregado en MongoDB Atlas:
+    - BBDD: MongoDB
+
+#### Servidor Servizo Mapa:
+    - Leaflet: Obtemos mapa de OpenStreetMap https://www.openstreetmap.org/ a través da API Leaflet.
+
 
 
 # Manual técnico
