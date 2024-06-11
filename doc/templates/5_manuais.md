@@ -6,15 +6,15 @@ Deben indicarse os compoñentes software implicados. p.e. Framework Laravel, Vue
 ![Diagrama de despregamento](../img/DiagramaDespregamento.png)
 #### Servizo Web:
 Despregado en render.com:
-    - Front end: Vue 3 JS - Javascript
-    - Back end: Express JS - Node JS
+- Front end: Vue 3 JS - Javascript
+- Back end: Express JS - Node JS
 
 #### Servidor BBDD:
 Despregado en MongoDB Atlas:
-    - BBDD: MongoDB
+- BBDD: MongoDB
 
 #### Servidor Servizo Mapa:
-    - Leaflet: Obtemos mapa de OpenStreetMap https://www.openstreetmap.org/ a través da API Leaflet.
+- Leaflet: Obtemos mapa de OpenStreetMap https://www.openstreetmap.org/ a través da API Leaflet.
 
 
 
