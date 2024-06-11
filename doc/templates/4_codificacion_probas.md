@@ -98,4 +98,4 @@ Ao querer mover botóns a compoñentes diferentes dos inicialmente previstos par
 #### Reto 3:
     
 - Autenticación e Autorización.
-Durante o desenvolvemento da funcionalidade de filtrado, foi necesario implementar mecanismos de autenticación e autorización para garantir que só os usuarios autorizados puideran acceder e utilizar certas funcións de filtrado. Isto implicou a integración de JWT (JSON Web Tokens) no back-end e a configuración do front-end para manexar tokens de forma segura.
+Foi necesario implementar mecanismos de autenticación e autorización para garantir que só os usuarios autorizados puideran acceder e utilizar as funcións de actualizar ou eliminar as incidencias. Isto implicou a integración de JWT (JSON Web Tokens) no back-end e a configuración do front-end para manexar tokens de forma segura.
