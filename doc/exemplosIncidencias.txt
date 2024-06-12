@@ -1,0 +1,34 @@
+Exemplos de incidencias:
+
+Alcantarillado
+Obstrución na alcantarilla: A alcantarilla está obstruída, o que provoca inundacións cando chove.
+Mal cheiro persistente: Percíbese un cheiro desagradable e persistente, posiblemente debido a un problema no sistema de alcantarillado.
+Tapa de alcantarilla rota: A tapa da alcantarilla está rota, representando un perigo para peóns e vehículos.
+Alumeado Público
+Farola fundida: A farola non acende durante a noite, deixando a zona completamente ás escuras.
+Parpadeo constante: O alumeado parpadea constantemente, o que causa molestias aos veciños e peóns.
+Poste de luz caído: Un poste de luz caeu, creando un risco de seguridade e deixando a zona sen iluminación.
+Limpeza Viaria
+Lixo acumulado: Hai unha acumulación considerable de lixo que non foi retirada en varios días.
+Papeleiras desbordadas: As papeleiras están desbordadas e o lixo está a espallarse pola zona.
+Manchas de aceite na calzada: Detectáronse manchas de aceite na calzada, o cal pode resultar perigoso para os vehículos.
+Medio Ambiente
+Árbore caído: Unha árbore caeu, bloqueando un dos camiños principais e representando un perigo para os visitantes.
+Vertido ilegal: Identificouse un vertido ilegal de residuos tóxicos no río.
+Contaminación acústica: Hai un ruído constante e molesto proveniente dunha fábrica, afectando aos residentes próximos.
+Medio Viario
+Buratos na estrada: A estrada está chea de buratos, dificultando a circulación de vehículos.
+Sinal de tráfico danada: Unha sinal de stop está danada e apenas é visible.
+Paso de peóns borrado: O paso de peóns está case borrado, representando un perigo para os transeúntes.
+Semáforos e Sinais
+Semáforo fóra de servizo: O semáforo non funciona desde hai varios días.
+Tempo de semáforo insuficiente: O tempo para cruzar no semáforo é moi curto, especialmente para persoas maiores.
+Sinal de tráfico mal colocada: Unha sinal de dirección prohibida está colocada de maneira incorrecta, causando confusión aos condutores.
+Parques e Xardíns
+Columpios rotos: Os columpios no parque infantil están rotos e representan un risco para os nenos.
+Céspede sen cortar: O céspede no xardín botánico está demasiado alto, o que dá unha aparencia descoidada e dificulta o paso.
+Fontes sen auga: As fontes non funcionan, privando aos visitantes dun lugar para refrescarse.
+Outros
+Vandalismo en muros: Detectáronse varias pintadas vandálicas nos muros da biblioteca municipal.
+Problemas co subministro de auga: Hai cortes frecuentes no subministro de auga potable.
+Fallos na recollida de residuos: Os colectores de reciclaxe non foron baleirados en unha semana, causando acumulación de lixo.
