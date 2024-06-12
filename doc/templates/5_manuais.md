@@ -254,12 +254,21 @@ Indica:
   ```
 
 - Claves de acceso.
+
 - Outra información que consideres que debe coñecer a persoa que se encargará das tarefas de mantemento desde o punto de vista da programación.
 
 ```
-
+BBDD despregado en MongoDB Atlas
+  usuario: a22danielsc
+  contrasinal: KS8H9pTywVJu0uH4
+Usuario administrador creado na aplicación:
+  JWT_TOKEN (Para cifrado e autenticación dos usuarios): Khz47ti2!
+  usuario: admin
+  contrasinal: abc123.
 ```
 
 ```
+Para crear un novo usuario, en ./CompostelaReporta/controller/userController.js hai que descomentar o método createUser xa que está comentado por seguridade seguridade.
 
+É fundamental que se manteñan os contedores Docker actualizados e que se realicen copias de seguridade periódicas da base de datos. Tamén se recomenda seguir boas prácticas de desenvolvemento seguro e xestión de dependencias para evitar vulnerabilidades.
 ```
