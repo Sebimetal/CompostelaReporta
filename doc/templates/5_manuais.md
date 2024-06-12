@@ -126,8 +126,140 @@ Manual coa información que necesitará a persoa que teña que realizar modifica
 Indica:
 
 - Prerrequisitos hardware.
+  - **Procesador**: Intel i5 ou superior.
+  - **Memoria RAM**: 16 GB ou máis.
+  - **Almacenamento**: SSD con polo menos 500 GB de espazo libre.
+  - **Resolución de pantalla**: 1920x1080 píxeles ou superior.
+  - **Conectividade**: Acceso a internet de alta velocidade.
 - Software que debe ser instalado.
+
+  - **Sistema Operativo**: Windows 10 ou superior, macOS ou algunha distribución de Linux recente.
+  - **Editor de Código**: No meu caso Visual Studio Code (VSCode).
+  - **Control de Versións**: Git
+  - **Para desenvolver**:
+
+    - **Node.js** co xestor de paquetes **npm** para o desenrolo do backend.
+    - **Vue CLI** para o desenrolo de frontend.
+    - Instalar as dependencias tanto de back como de front con `npm install` (Localizadas no arquivo _package.json_).
+
+  - **Bases de Datos**: MongoDB
+  - **Docker e Dockercompose**: Para xestionar os nosos contenedores para un despregue máis sinxelo.
+
+  - **Recomendacións**:
+
+    - **Postman** para facer probas de peticións CRUD ao noso backend.
+
 - Estrutura final da BD.
+  No folder `CompostelaReporta/models` podes comprobar os Schemas para a creación da BBDD en MongoDB a través de Mongoose.
+  Componse principalmente de tres Coleccións:
+
+  - Issues: Onde almacenamos os documentos sobre as nosas incidencias incluidos os updates.
+
+  ```
+  const issueSchema = new Schema({
+  description: { type: String, required: true },
+  location: { type: pointSchema, required: true },
+  address: { type: String },
+  issueType: { type: String, required: true },
+  status: { type: String, default: 'new' }, //  Admin - Para cambiar dun estado a outro
+  creationDate: { type: Date, default: Date.now },
+  updateDate: { type: Date, default: Date.now }, //  Actualiza cando admin cambia un estado
+  priority: { type: Number }, // Admin
+  reporterHash: { type: String, required: true },
+  responder: { type: Schema.Types.ObjectId, ref: 'Responder' }, // Admin
+  parentIssue: { type: Schema.Types.ObjectId, ref: 'Issue' }, // Admin
+  updates: [updateSchema],
+  });
+
+  ```
+
+  - Responders: Onde almacenamos os responsables para a reparación/xestión destas incidencias.
+
+  ```
+    const responderSchema = new Schema({
+    name: { type: String },
+    telephone: { type: String },
+    });
+  ```
+
+  - Users: Onde almacenaremos os usuarios e contrasinais dos nosos administradores.
+
+  ```
+  const userSchema = new mongoose.Schema(
+    {
+      username: {
+        type: String,
+        required: true,
+        unique: true,
+      },
+      password: {
+        type: String,
+        required: true,
+      },
+    },
+    { timestamps: true }
+  );
+  ```
+
 - Descrición do esquema de directorios do proxecto.
+  CompostelaReporta - Backend:
+
+  ```
+  .
+  ├── bin - Almacénase o arquivo www coa configuración inicial e por onde arrancamo-lo noso backend
+  ├── controller - Tódolos módulos onde temos algún tipo de acción contra a BBDD
+  ├── db - Xestionamos a conexión coa nosa BBDD de MongoDB
+  ├── middleware - Middleware para o control de acceso ás funcións ás que solo pode acceder o administrador
+  ├── models - Cada un dos Schema que creamos para que mongoose mapee as entidades a coleccións á BBDD
+  ├── node_modules - Arquivos de instalación de tódalas dependencias
+  ├── public - Non usado.
+  ├── routes - Clase onde organizamo-las rutas polas que acceder aos nosos métodos dos controller
+  ├── views - Non usado
+  ├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+  ├── .env - Arquivo coas nosas variables de contorno
+  ├── .env_DATAExample - Arquivo con exemplo das variables de contorno a configurar para subir ao noso repositorio
+  ├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+  ├── app.js - Arquivo polo que arranca o noso backend
+  ├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
+  ├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
+  └── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
+  ```
+
+  FrontendCompostelaReporta - Frontend:
+
+  ```
+  .
+  ├── dist - Conten os arquivos xerados despois de facer build do noso proxecto. JS minificados, CSS compilados...
+  ├── nginxConfig - Arquivo de configuración para despregar o noso front.
+  ├── node_modules - Contén tódalas dependencias do noso proxecto.
+  ├── public - Tódolos recursos que vamos a utilizar públicamente (fotos, logos, iconas...)
+  ├── src - Código fonte do proxecto
+  |  |
+  |  ├── assets - Contén os recursos como fontes, estilos css...
+  |  ├── components - Nesta carpeta temos tódolos compoñentes que utilizamos na nosa aplicación
+  |  ├── mixins - Contén un arquivo JS no que creamos métodos xenéricos que vamos poder utilizar en varios dos nosos compoñentes
+  |  ├── router - Utilizamos para crear rutas hacia os distintos compoñentes da nosa aplicación
+  |  ├── App.vue - Compoñente raíz no que contén as estructura básica do noso proxecto
+  |  └── main.js - Punto de entrada da nosa aplicación, contén a configuración global do noso proxecto.
+  |
+  ├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+  ├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+  ├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
+  ├── index.html - Páxina inicial da nosa aplicación.
+  ├── jsconfig.json - Configuracións específicas de JavasCript.
+  ├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
+  ├── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
+  └── vite.config.js - Configuración específica do contorno de desenvolvemento.
+
+  ```
+
 - Claves de acceso.
 - Outra información que consideres que debe coñecer a persoa que se encargará das tarefas de mantemento desde o punto de vista da programación.
+
+```
+
+```
+
+```
+
+```
