@@ -202,56 +202,67 @@ Indica:
   ```
 
 - Descrición do esquema de directorios do proxecto.
-  CompostelaReporta - Backend:
+  Ruta principal ./
 
-  ```
-  .
-  ├── bin - Almacénase o arquivo www coa configuración inicial e por onde arrancamo-lo noso backend
-  ├── controller - Tódolos módulos onde temos algún tipo de acción contra a BBDD
-  ├── db - Xestionamos a conexión coa nosa BBDD de MongoDB
-  ├── middleware - Middleware para o control de acceso ás funcións ás que solo pode acceder o administrador
-  ├── models - Cada un dos Schema que creamos para que mongoose mapee as entidades a coleccións á BBDD
-  ├── node_modules - Arquivos de instalación de tódalas dependencias
-  ├── public - Non usado.
-  ├── routes - Clase onde organizamo-las rutas polas que acceder aos nosos métodos dos controller
-  ├── views - Non usado
-  ├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
-  ├── .env - Arquivo coas nosas variables de contorno
-  ├── .env_DATAExample - Arquivo con exemplo das variables de contorno a configurar para subir ao noso repositorio
-  ├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
-  ├── app.js - Arquivo polo que arranca o noso backend
-  ├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
-  ├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
-  └── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
-  ```
+```
+./
+|
+├── CompostelaReporta - Backend
+├── FrontCompostelaReporta - Frontend
+├── scripts - Scripts creados para exportar e importar as coleccións e documentos da nosa bbdd
+└── docker-compose.yml - Arquivo para desplega-lo noso proxecto en contenedores Docker
+```
 
-  FrontendCompostelaReporta - Frontend:
+Backend:
 
-  ```
-  .
-  ├── dist - Conten os arquivos xerados despois de facer build do noso proxecto. JS minificados, CSS compilados...
-  ├── nginxConfig - Arquivo de configuración para despregar o noso front.
-  ├── node_modules - Contén tódalas dependencias do noso proxecto.
-  ├── public - Tódolos recursos que vamos a utilizar públicamente (fotos, logos, iconas...)
-  ├── src - Código fonte do proxecto
-  |  |
-  |  ├── assets - Contén os recursos como fontes, estilos css...
-  |  ├── components - Nesta carpeta temos tódolos compoñentes que utilizamos na nosa aplicación
-  |  ├── mixins - Contén un arquivo JS no que creamos métodos xenéricos que vamos poder utilizar en varios dos nosos compoñentes
-  |  ├── router - Utilizamos para crear rutas hacia os distintos compoñentes da nosa aplicación
-  |  ├── App.vue - Compoñente raíz no que contén as estructura básica do noso proxecto
-  |  └── main.js - Punto de entrada da nosa aplicación, contén a configuración global do noso proxecto.
-  |
-  ├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
-  ├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
-  ├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
-  ├── index.html - Páxina inicial da nosa aplicación.
-  ├── jsconfig.json - Configuracións específicas de JavasCript.
-  ├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
-  ├── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
-  └── vite.config.js - Configuración específica do contorno de desenvolvemento.
+```
+.
+├── bin - Almacénase o arquivo www coa configuración inicial e por onde arrancamo-lo noso backend
+├── controller - Tódolos módulos onde temos algún tipo de acción contra a BBDD
+├── db - Xestionamos a conexión coa nosa BBDD de MongoDB
+├── middleware - Middleware para o control de acceso ás funcións ás que solo pode acceder o administrador
+├── models - Cada un dos Schema que creamos para que mongoose mapee as entidades a coleccións á BBDD
+├── node_modules - Arquivos de instalación de tódalas dependencias
+├── public - Non usado.
+├── routes - Clase onde organizamo-las rutas polas que acceder aos nosos métodos dos controller
+├── views - Non usado
+├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+├── .env - Arquivo coas nosas variables de contorno
+├── .env_DATAExample - Arquivo con exemplo das variables de contorno a configurar para subir ao noso repositorio
+├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+├── app.js - Arquivo polo que arranca o noso backend
+├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
+├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
+└── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
+```
 
-  ```
+Frontend:
+
+```
+.
+├── dist - Conten os arquivos xerados despois de facer build do noso proxecto. JS minificados, CSS compilados...
+├── nginxConfig - Arquivo de configuración para despregar o noso front.
+├── node_modules - Contén tódalas dependencias do noso proxecto.
+├── public - Tódolos recursos que vamos a utilizar públicamente (fotos, logos, iconas...)
+├── src - Código fonte do proxecto
+|  |
+|  ├── assets - Contén os recursos como fontes, estilos css...
+|  ├── components - Nesta carpeta temos tódolos compoñentes que utilizamos na nosa aplicación
+|  ├── mixins - Contén un arquivo JS no que creamos métodos xenéricos que vamos poder utilizar en varios dos nosos compoñentes
+|  ├── router - Utilizamos para crear rutas hacia os distintos compoñentes da nosa aplicación
+|  ├── App.vue - Compoñente raíz no que contén as estructura básica do noso proxecto
+|  └── main.js - Punto de entrada da nosa aplicación, contén a configuración global do noso proxecto.
+|
+├── .dockerignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+├── .gitignore - Arquivo para ignorar subir certos ficheiros ao noso repositorio
+├── Dockerfile - Arquivo de configuración para montar o noso contedor Docker
+├── index.html - Páxina inicial da nosa aplicación.
+├── jsconfig.json - Configuracións específicas de JavasCript.
+├── package-lock.json - Arquivo no que se enumeran tódolos paquetes de cada unha das dependencias instaladas no noso proxecto.
+├── package.json - Arquivo no que se enumeran tódalas dependencias a instalar no noso proxecto, mais os scripts de inicio, entre outros datos.
+└── vite.config.js - Configuración específica do contorno de desenvolvemento.
+
+```
 
 - Claves de acceso.
 
@@ -268,7 +279,5 @@ Usuario administrador creado na aplicación:
 ```
 
 ```
-Para crear un novo usuario, en ./CompostelaReporta/controller/userController.js hai que descomentar o método createUser xa que está comentado por seguridade seguridade.
-
 É fundamental que se manteñan os contedores Docker actualizados e que se realicen copias de seguridade periódicas da base de datos. Tamén se recomenda seguir boas prácticas de desenvolvemento seguro e xestión de dependencias para evitar vulnerabilidades.
 ```

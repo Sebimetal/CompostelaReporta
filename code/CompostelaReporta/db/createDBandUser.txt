@@ -1,0 +1,38 @@
+use CompostelaReporta
+
+
+db.createUser({
+    user: "user",
+    pwd: "password",
+    roles: [
+        { role: "readWrite", db: "dbName" },
+    ]
+})
+
+// Array de documentos a insertar
+const responsables = [
+  {
+    name: "Departamento de Obras Públicas",
+    telephone: "+34981542422"
+  },
+  {
+    name: "Policia Local",
+    telephone: "+34981542323"
+  },
+  {
+    name: "Departamento de Servicios Públicos",
+    telephone: "+34981542300"
+  },
+  {
+    name: "Departamento de Medio Ambiente",
+    telephone: "+34981900643"
+  },
+  {
+    name: "Concello",
+    telephone: "+34981542300"
+  },
+  {
+    name: "Bomberos",
+    telephone: "+34981542444"
+  }
+];

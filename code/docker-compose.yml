@@ -1,0 +1,41 @@
+version: '3'
+services:
+  frontend:
+    build: ./FrontCompostelaReporta
+    ports:
+      - '8080:80'
+    volumes:
+      - ./FrontCompostelaReporta:/app
+      - ./FrontCompostelaReporta/nginxConfig:/etc/nginx/conf.d
+      - /app/node_modules
+    depends_on:
+      - backend
+    environment:
+      NODE_ENV: production
+
+  backend:
+    build: ./CompostelaReporta
+    ports:
+      - '3001:3001'
+    volumes:
+      - ./CompostelaReporta:/app
+      - /app/node_modules
+    env_file:
+      - ./CompostelaReporta/.env
+    depends_on:
+      - mongo
+    environment:
+      NODE_ENV: production
+
+  mongo:
+    image: mongo:4.2
+    #command: mongodump --db compostela_reporta --out dump.tar.gz && mongorestore --db compostela_reporta dump.tar.gz
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+      - ./scripts/export.sh:/export.sh
+      - ./scripts/import.sh:/import.sh
+      - ./scripts/backup:/backup
+volumes:
+  mongo-data:

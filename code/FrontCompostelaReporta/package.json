@@ -1,0 +1,32 @@
+{
+  "name": "frontcompostelareporta",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^16.4.5",
+    "leaflet": "^1.9.4",
+    "object-assign": "^4.1.1",
+    "Vite": "npm:vite@^5.2.11",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2",
+    "vuetify": "^3.6.0-beta.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue-leaflet/vue-leaflet": "^0.10.1",
+    "sass": "^1.77.4",
+    "vite": "^5.2.8"
+  }
+}

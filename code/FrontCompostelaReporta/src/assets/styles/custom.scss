@@ -1,0 +1,22 @@
+// src/assets/styles/custom.scss
+
+// Sobrescribir las variables de Bootstrap con colores menos llamativos
+$primary: #1470af; // Azul suave
+$secondary: #8eb6dc; // Gris oscuro
+$success: #75b798; // Verde suave
+$info: #5bc0de; // Azul claro
+$warning: #bb9d26; // Amarillo suave
+$danger: #e57373; // Rojo suave
+$light: #eaeaee; // Blanco humo
+$dark: #686b6e; // Gris oscuro
+/* styles.scss */
+
+// Resto de tus estilos
+
+// Importar Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Estilo global para el fondo del cuerpo
+body {
+  background-color: #f2f2f3;
+}
