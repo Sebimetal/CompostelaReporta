@@ -83,9 +83,9 @@ Icon.Default.mergeOptions({
 
 // Para poder usar a variable de forma global facemos provide e despois inject no compoñente que necesitemos usalo
 // Local
-// app.provide('backendServerAddress', 'http://localhost:3001');
+app.provide('backendServerAddress', 'http://localhost:3001');
 
 // Deployed in Render.com
-app.provide('backendServerAddress', 'https://compostelareporta.onrender.com');
+//app.provide('backendServerAddress', 'https://compostelareporta.onrender.com');
 
 app.mount('#app');
