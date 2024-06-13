@@ -29,7 +29,6 @@ services:
 
   mongo:
     image: mongo:4.2
-    #command: mongodump --db compostela_reporta --out dump.tar.gz && mongorestore --db compostela_reporta dump.tar.gz
     ports:
       - '27017:27017'
     volumes:
