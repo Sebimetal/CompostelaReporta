@@ -266,8 +266,6 @@ Frontend:
 
 - Claves de acceso.
 
-- Outra información que consideres que debe coñecer a persoa que se encargará das tarefas de mantemento desde o punto de vista da programación.
-
 ```
 BBDD despregado en MongoDB Atlas
   usuario: a22danielsc
@@ -277,6 +275,8 @@ Usuario administrador creado na aplicación:
   usuario: admin
   contrasinal: abc123.
 ```
+
+- Outra información que consideres que debe coñecer a persoa que se encargará das tarefas de mantemento desde o punto de vista da programación.
 
 ```
 É fundamental que se manteñan os contedores Docker actualizados e que se realicen copias de seguridade periódicas da base de datos. Tamén se recomenda seguir boas prácticas de desenvolvemento seguro e xestión de dependencias para evitar vulnerabilidades.
