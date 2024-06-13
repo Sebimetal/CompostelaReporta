@@ -27,6 +27,8 @@ Despregado en MongoDB Atlas:
 
 # Manual técnico
 
+---
+
 ## Manual de posta en produción.
 
 ## Pasos comúns
@@ -50,6 +52,8 @@ _Contido do main.js liña 81_
 ```
 app.provide('backendServerAddress', 'http://localhost:3001');
 ```
+
+---
 
 ### Opción a: Despregue en render.com e MongoDB Atlas:
 
@@ -88,6 +92,8 @@ app.provide('backendServerAddress', 'http://localhost:3001');
 
 - Configura os dominios en render.com para garantir a seguridade e a accesibilidade da túa aplicación. En canto aos certificados SSL render.com xestionase automáticamente.
 
+---
+
 ### Opción b: Despregue utilizando Docker-compose:
 
 #### Prerrequisitos Hardware:
@@ -119,6 +125,10 @@ app.provide('backendServerAddress', 'http://localhost:3001');
 
 - _Configura os volumes de almacenamento_ para os contedores Docker para garantir a persistencia dos datos no servidor.
 - Recorda utilizar o script `sh export.sh` para exportar unha copia das coleccións da base de datos do contedor.
+
+---
+
+---
 
 ## Manual entorno de desenvolvemento.
 

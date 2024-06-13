@@ -1,4 +1,5 @@
 # Proxecto de fin de ciclo DAW
+
 ## Descrición
 
 Benvidos ao noso proxecto!
@@ -6,7 +7,9 @@ Benvidos ao noso proxecto!
 Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de comunicación áxil entre o Concello de Santiago de Compostela e os seus cidadáns**. O noso obxectivo principal é **informar sobre as diversas incidencias que poidan xurdir na nosa cidade**, permitindo á comunidade **notificar esas incidencias para manter ao concello informado**. Ao mesmo tempo, a nosa aplicación tamén ofrece a posibilidade de **consultar as incidencias activas** en Santiago de Compostela. ¡Acompáñanos nesta iniciativa!
 
 ## Uso
+
 Link á nosa aplicación:
+
 > https://compostelareporta.me/
 
 Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axeitado.
@@ -22,8 +25,8 @@ Os meus puntos fortes inclúen a capacidade de informarme de maneira efectiva, a
 Decanteime por este proxecto porque creo na importancia de establecer canles eficaces de comunicación entre os cidadáns e as entidades gobernamentais. Esta iniciativa non só me permite desenvolver as miñas habilidades técnicas, senón tamén contribuír ao benestar da miña comunidade. A miña intención é a de desenvolver unha aplicación web que sexa eficiente e fácil de usar para os usuarios finais.
 
 #### Contacto
-Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailto:daniel.sebio@gmail.com) ou a través do meu perfil de LinkedIn en [es.linkedin.com/in/dsebio](https://es.linkedin.com/in/dsebio).
 
+Podes contactar comigo por correo electrónico en [daniel.sebio@gmail.com](mailto:daniel.sebio@gmail.com) ou a través do meu perfil de LinkedIn en [es.linkedin.com/in/dsebio](https://es.linkedin.com/in/dsebio).
 
 ## Licencia
 
@@ -35,15 +38,14 @@ Todos os dereitos reservados © 2024 Compostela Reporta.
 
 O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.
 
-
 ## Memoria
 
-> *Tarefa*: Indexa de forma ordenada a memoria do teu proxecto.
+> _Tarefa_: Indexa de forma ordenada a memoria do teu proxecto.
 > Durante a redacción da memoria, debes ir completando progresivamente o anexo de Referencias.
 
 1. [Estudo preliminar](doc/templates/1_estudo_preliminar.md)
 2. [Análise](doc/templates/2_analise.md)
 3. [Deseño](doc/templates/3_deseno.md)
 4. [Planificación e Orzamento](doc/templates/a3_orzamento.md)
-4. [Codificación e Probas](doc/templates/4_codificacion_probas.md)
-5. [App finalizada, documentada e instalada](doc/templates/5_manuais.md)
+5. [Codificación e Probas](doc/templates/4_codificacion_probas.md)
+6. [Mantemento](doc/templates/5_manuais.md)
