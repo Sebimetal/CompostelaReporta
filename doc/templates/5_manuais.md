@@ -57,6 +57,8 @@ app.provide('backendServerAddress', 'http://localhost:3001');
 
 ### Opción a: Despregue en render.com e MongoDB Atlas:
 
+---
+
 #### Prerrequisitos Hardware:
 
 - Ningún hardware específico é necesario, xa que render.com e MongoDB Atlas xestionarán a infraestrutura por ti.
@@ -130,7 +132,7 @@ app.provide('backendServerAddress', 'http://localhost:3001');
 
 ---
 
-## Manual entorno de desenvolvemento.
+## Manual contorno de desenvolvemento.
 
 Manual coa información que necesitará a persoa que teña que realizar modificacións do proxecto no futuro: melloras e/ou corrección de erros.
 Indica:
@@ -274,7 +276,7 @@ Frontend:
 
 ```
 
-- Claves de acceso.
+- Chaves de acceso.
 
 ```
 BBDD despregado en MongoDB Atlas
@@ -291,3 +293,16 @@ Usuario administrador creado na aplicación:
 ```
 É fundamental que se manteñan os contedores Docker actualizados e que se realicen copias de seguridade periódicas da base de datos. Tamén se recomenda seguir boas prácticas de desenvolvemento seguro e xestión de dependencias para evitar vulnerabilidades.
 ```
+
+---
+
+---
+
+## Melloras futuras
+
+- Creación de usuarios para poder manter o seguimento de tódalas incidencias comunicadas por eles
+- Envío de e-mail aos usuarios coas novidades que haxa nas incidencias que comunicaron
+- Inclusión de fotografías representativas da incidencia comunicada
+- Incorporación dun sistema de comentarios e valoracións para que os usuarios poidan dar feedback sobre a resolución das súas incidencias
+- Mellora dos informes e análises de datos para identificar tendencias e áreas problemáticas comúns
+- Mellora de filtrado de incidencias (por área de localización, barrios, rúas...)
