@@ -11,6 +11,8 @@ Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de
 Link á nosa aplicación:
 
 > https://compostelareporta.me/
+
+Gráfico manual de uso:
 ![Manual de uso](./doc/img/ManualUsuario.png)
 
 ## Sobre a persoa autora
@@ -38,9 +40,6 @@ Todos os dereitos reservados © 2024 Compostela Reporta.
 O uso non autorizado ou a reprodución deste contido, total ou parcialmente, sen o consentimento previo e por escrito de Compostela Reporta está estritamente prohibido.
 
 ## Memoria
-
-> _Tarefa_: Indexa de forma ordenada a memoria do teu proxecto.
-> Durante a redacción da memoria, debes ir completando progresivamente o anexo de Referencias.
 
 1. [Estudo preliminar](doc/templates/1_estudo_preliminar.md)
 2. [Análise](doc/templates/2_analise.md)
