@@ -11,6 +11,8 @@ export default {
       selectedComponent: 'Issues',
       successMessage: '',
       isLoggedIn: false,
+      // Pasamos changedKey para facer reactivos os compoñentes cando se faga login/logout
+      changedKey: 0,
     };
   },
   components: {
@@ -34,8 +36,13 @@ export default {
     dismissAlert() {
       this.successMessage = '';
     },
+    // Ao facer loggin, cambiamos booleano e editamos changedKey para facelo reactivo e que re-renderice o compoñente
     loggedIn() {
       this.isLoggedIn = true;
+      this.updateKey();
+    },
+    updateKey() {
+      this.changedKey++;
     },
   },
 };
@@ -47,7 +54,7 @@ export default {
     @loginSuccess="loggedIn"
     @componentChange="changeComponent"
   ></Header>
-  <RouterView></RouterView>
+  <RouterView :key="changedKey"></RouterView>
   <BotonEngadir
     v-if="this.selectedComponent != '/CreateIssue'"
     @componentChange="changeComponent"
