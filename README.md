@@ -11,8 +11,7 @@ Aquí, atoparás unha proposta innovadora centrada en **establecer unha canle de
 Link á nosa aplicación:
 
 > https://compostelareporta.me/
-
-Inclúe un breve manual de uso ou un vídeo explicativo, segundo consideres axeitado.
+![Manual de uso](./doc/img/ManualUsuario.png)
 
 ## Sobre a persoa autora
 
