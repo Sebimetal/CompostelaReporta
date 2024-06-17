@@ -57,6 +57,10 @@ export default {
     retrieveCoordinates(coordinates) {
       this.coordinates = coordinates;
     },
+    // Cerramos o alert
+    closeAlert() {
+      this.showAlert = false;
+    },
     //Método para crear incidencia na base de datos
     async createIssue() {
        if (!this.coordinates || this.coordinates.length === 0) {
@@ -106,6 +110,11 @@ export default {
 <template>
   <!-- Mandamos props :CreateIssueComponent para activar as funcionalidades para creación de incidencias no mapa 
     e :initialCoordinates por se temos coordenadas xa seleccionadas-->
+  <!-- Mostrar mensaxe alerta se non hai coordenadas seleccionadas -->
+  <div v-if="showAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
+    Por favor, seleccione una ubicación en el mapa.
+    <button type="button" class="btn-close" @click="closeAlert" aria-label="Close"></button>
+  </div>
   <MapSantiago
     @coordinates-selected="retrieveCoordinates"
     :CreateIssueComponent="true"
@@ -141,11 +150,6 @@ export default {
     </form>
   </div>
   <Teleport to="body">
-    <!-- Mostrar mensaxe alerta se non hai coordenadas seleccionadas -->
-    <div v-if="showAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
-      Por favor, seleccione una ubicación en el mapa.
-      <button type="button" class="btn-close" @click="closeAlert" aria-label="Close"></button>
-    </div>
     <!-- Modal para mostrar datos da incidencia unha vez creada a incidencia -->
     <ModalShowIssue
       :codigoUsuario="userHash"
