@@ -112,7 +112,7 @@ export default {
     e :initialCoordinates por se temos coordenadas xa seleccionadas-->
   <!-- Mostrar mensaxe alerta se non hai coordenadas seleccionadas -->
   <div v-if="showAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
-    Por favor, seleccione una ubicación en el mapa.
+    Por favor, seleccione unha ubicación no mapa.
     <button type="button" class="btn-close" @click="closeAlert" aria-label="Close"></button>
   </div>
   <MapSantiago
