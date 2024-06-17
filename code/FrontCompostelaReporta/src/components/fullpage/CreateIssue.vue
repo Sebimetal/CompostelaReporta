@@ -16,7 +16,7 @@ export default {
       description: '',
       issueType: '',
       responder: '',
-      coordinates: [], // Array para almacenar las coordenadas seleccionadas;
+      coordinates: [], // Array para almacena-las coordenadas seleccionadas;
       issueTypes: [
         'Alcantarillado',
         'Alumeado público',
@@ -50,7 +50,7 @@ export default {
         const data = await response.json();
         this.responders = data;
       } catch (error) {
-        console.error('Error al obtener la lista de responsables:', error);
+        console.error('Error al obtener a lista de responsables:', error);
       }
     },
     // Recollendo as coordenadas, método chamado cando facemos emit dende compoñente mapa Santiago
@@ -64,7 +64,7 @@ export default {
     //Método para crear incidencia na base de datos
     async createIssue() {
        if (!this.coordinates || this.coordinates.length === 0) {
-        console.error('Error: Las coordenadas no pueden estar vacías');
+        console.error('Error: As coordenadas non poden estar vacías');
         this.showAlert = true;
         return;
       }
@@ -95,12 +95,12 @@ export default {
           this.modalClosed = false;
         } else {
           console.error(
-            'Error al crear la nueva incidencia:',
+            'Error ao crear a nova incidencia:',
             response.statusText
           );
         }
       } catch (error) {
-        console.error('Error al crear la nueva incidencia:', error);
+        console.error('Error ao crear a nova incidencia:', error);
       }
     },
   },
