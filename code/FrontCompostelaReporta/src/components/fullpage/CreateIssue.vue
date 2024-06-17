@@ -31,6 +31,7 @@ export default {
       userHash: '',
       modalClosed: true,
       issue: null,
+      showAlert: false,
     };
   },
   // Recollemo-las props temporaryMarker e componentStatus
@@ -58,6 +59,11 @@ export default {
     },
     //Método para crear incidencia na base de datos
     async createIssue() {
+       if (!this.coordinates || this.coordinates.length === 0) {
+        console.error('Error: Las coordenadas no pueden estar vacías');
+        this.showAlert = true;
+        return;
+      }
       try {
         const issueData = {
           description: this.description,
@@ -135,6 +141,11 @@ export default {
     </form>
   </div>
   <Teleport to="body">
+    <!-- Mostrar mensaxe alerta se non hai coordenadas seleccionadas -->
+    <div v-if="showAlert" class="alert alert-danger alert-dismissible fade show" role="alert">
+      Por favor, seleccione una ubicación en el mapa.
+      <button type="button" class="btn-close" @click="closeAlert" aria-label="Close"></button>
+    </div>
     <!-- Modal para mostrar datos da incidencia unha vez creada a incidencia -->
     <ModalShowIssue
       :codigoUsuario="userHash"
