@@ -108,6 +108,8 @@ app.provide('backendServerAddress', 'http://localhost:3001');
 
 #### Carga Inicial da BD e/ou Migracións:
 
+- [README.Docker.md](../../code/README.Docker.md) Podes comprobar o arquivo README.Docker.md cun resumo cos pasos a seguir para despregar os contedores Docker
+
 - Utiliza o arquivo docker-compose.yaml que está na carpeta base do código do proxecto para cargar os contenedores. **Recorda de modifica-las rutas dos volumes se cambias a estructura das carpetas do proxecto subido.**
 
 - En canto estén os contenedores activos, accede ao docker de mongo e executa o comando `sh import.sh`. Recollerá o backup da carpeta _scripts/backup_ e importaraos á base de datos do noso MongoDB desplegado en Docker.
@@ -283,7 +285,7 @@ BBDD despregado en MongoDB Atlas
   usuario: a22danielsc
   contrasinal: KS8H9pTywVJu0uH4
 Usuario administrador creado na aplicación:
-  JWT_TOKEN (Para cifrado e autenticación dos usuarios): Khz47ti2!
+  JWT_TOKEN (Para cifrado e autenticación dos usuarios): Khz*******
   usuario: admin
   contrasinal: abc123.
 ```
